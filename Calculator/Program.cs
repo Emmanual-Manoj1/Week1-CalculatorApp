@@ -5,4 +5,4 @@ int secondnumber = Convert.ToInt32(Console.ReadLine());
 
 int result = firstnumber + secondnumber;    
 
-Console.WriteLine("The Sum is : " + result);
+Console.WriteLine("The Sum of {0} and {1} is {2}",firstnumber, secondnumber, result);
